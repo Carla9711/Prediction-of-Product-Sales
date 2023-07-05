@@ -1,6 +1,6 @@
 # Prediction of Product Sales
 Author: Carla Cloete
-# Project Overvire
+# Project Overview
 # Load and Inspect Data
 # Clean Data
 # Exploratory Data Analysis
