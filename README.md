@@ -1,6 +1,6 @@
 # Prediction of Product Sales
-  Author: Carla Cloete
-  
+  - Author: Carla Cloete
+
 ## Project Overview
 
 ## Load and Inspect Data
