@@ -20,8 +20,24 @@ For this dataset, there were 8523 rows and 12 columns
 
 
 ## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+- The following steps were taken to clean the dataset:
+  -  Duplicate values were evaluated 
+  -  Inconsistent categorical values were evaluated and replaced
+  -  Impossible numerical values were evaluated 
+- Next, each feature was explored:
+  - Boxplots and histograms were ploted for numerical data
+  - Countplots were plotted for categorical data  
+- After the exploratory analysis, an explanatory analysis was done on each feature in relation to the target:
+  - For numerical features a regression plot was plotted
+  - For categorical features bar plots and strip plots were plotted
+- Each feature was assessed in terms of cardinality and the business case and relation to the target. The following features were dropped from the dataset
+  - 1
+  - 2
+- The following steps were taken to prepare the data for modeling
+  - Numerical
+  - Categorical
+  - Nominal
+- The          
 
 ## Results
 
