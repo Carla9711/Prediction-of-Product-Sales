@@ -54,44 +54,46 @@ As can be seen from the graph above, Low Fat and Regular Fat products have simil
   - Outlet_Identifier is not a property of the outlet and was therefore dropped.
   - Item_Type had a high cardinality of 16 and each item type had a similar distribution of sales and was therefore dropped.
  
-Outlet_Identifier is not a property of the outlet and therefore will be dropped. Item_Type has a high cardinality of 16 and have little effect on the target (Item_Outlet_Sales) and therefore will also be dropped.
 - The following steps were taken to prepare the data for modeling
-  - Numerical
-  - Categorical
+  - Numerical Columns
+    - Missing values were imputed with the median
+    - Columns were scaled   
+  - Ordinal
+    - Missing values were imputed with a constant
+    - Columns were ordinal encoded and scaled
   - Nominal
-- The          
+    - Columns were hot one encoded        
 
 ## Results
+- Four models were fitted and evaluated:
+  - Baseline Model
+  - Linear Regression
+  - Random Forest
+  - Random Forest Tuned
 
-### Here are examples of how to embed images from your sub-folder
+The final results of each model is displayed below
 
-
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
-
-> Sentence about visualization.
-
-#### Visual 2 Title
+<img width="346" alt="Model Results" src="https://github.com/Carla9711/Prediction-of-Product-Sales/assets/138701194/1e83c1d8-aea6-4877-a7d2-096482bb1410">
 
 ## Model
 
-Describe your final model
+The recommened model is the tuned Random Forest model as it provided the best evaluation scores.
 
-Report the most important metrics
+The R squared value for this model is 0.6 which is above 0.5 and is acceptable but not ideal. A R squared value closer to 1 would be more favourable.
 
-Refer to the metrics to describe how well the model would solve the business problem
+Furthermore, the MAE for the model indicates that the predicted target can be expected to be about 734.6 units away from the actual target. This is about 34% of the average target price.
 
 ## Recommendations:
 
-More of your own text here
-
+To achive higher R squared values and lower MAE, MSE and RSME values the dataset should be evaluated again. Columns that have little affect on the target should be dropped and new features that have better correlations to the target should be sourced.
 
 ## Limitations & Next Steps
 
-More of your own text here
+The analysis and modeling was limited to the dataset provided. Next step would be to consult the retailer to see if there's additional data points (i.e. features) that can be used for modeling.
 
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact CLTCAR010@myuct.ac.za
+
