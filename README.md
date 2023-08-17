@@ -11,7 +11,8 @@ A retailer would like to understand the properties of products and outlets that 
 ### Data:
 
 Outlet Sales Data: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view?usp=sharing
-Data can include source and high-level description (e.g. # obs)
+
+For this dataset, there were 8523 rows and 12 columns
 
 
 ## Methods
