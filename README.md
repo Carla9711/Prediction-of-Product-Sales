@@ -14,7 +14,10 @@ Outlet Sales Data: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPX
 
 For this dataset, there were 8523 rows and 12 columns
 
-![sample image](Sales Prediction Data Dictionary.png)
+**Data Dictionary**
+
+<img width="342" alt="Sales Prediction Data Dictionary" src="https://github.com/Carla9711/Prediction-of-Product-Sales/assets/138701194/bd530738-c9e2-41ff-8740-12d7ebb0fd61">
+
 
 ## Methods
 - Data preparation steps with explanation and justification for choices
